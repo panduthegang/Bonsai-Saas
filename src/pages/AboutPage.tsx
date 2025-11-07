@@ -3,19 +3,18 @@ import { Award, Leaf, Sun, Heart, Users, Sprout } from 'lucide-react';
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
-      <section className="relative pt-32 pb-20 px-6 overflow-hidden min-h-[70vh] flex items-center bg-gradient-to-br from-[#CEEDB2]/30 to-[#CEF17B]/20">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#CEF17B]/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#CEEDB2]/20 rounded-full blur-3xl"></div>
-
-        <div className="max-w-7xl mx-auto relative z-10 w-full">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="font-playfair text-6xl md:text-7xl lg:text-8xl font-bold text-[#084734] mb-6 leading-tight">
-              Our Story
-            </h1>
-            <p className="font-poppins text-lg md:text-xl text-[#084734]/80 mb-10 max-w-2xl mx-auto">
-              Two decades of passion, expertise, and dedication to the ancient art of bonsai cultivation
-            </p>
-          </div>
+      <section
+        className="relative bg-cover bg-center pt-48 pb-32 px-6 text-center text-white"
+        style={{ backgroundImage: "url('/About-Hero.png')" }}
+      >
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative z-10">
+          <h1 className="font-playfair text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
+            Our Story
+          </h1>
+          <p className="font-poppins text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+            Two decades of passion, expertise, and dedication to the ancient art of bonsai cultivation
+          </p>
         </div>
       </section>
 
@@ -25,7 +24,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-[#CEEDB2] to-[#CEF17B] rounded-[3rem] shadow-2xl flex items-center justify-center overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/1000498/pexels-photo-1000498.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.unsplash.com/photo-1632161286719-5afe9b5d954b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=745"
                   alt="Bonsai Garden"
                   className="w-full h-full object-cover"
                 />
@@ -144,7 +143,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-[#CEEDB2] to-[#CEF17B] rounded-[3rem] shadow-2xl flex items-center justify-center overflow-hidden">
                 <img
-                  src="https://images.pexels.com/photos/4750952/pexels-photo-4750952.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.unsplash.com/photo-1569873175476-10aa45523ab8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=717"
                   alt="Beautiful Bonsai"
                   className="w-full h-full object-cover"
                 />

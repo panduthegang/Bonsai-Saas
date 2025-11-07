@@ -15,11 +15,8 @@ export default function Navbar() {
           <Link to="/about" className="text-[#084734] hover:text-[#084734]/70 font-poppins transition-colors">About</Link>
         </div>
         <div className="flex items-center space-x-4">
-          <button className="p-2 hover:bg-[#CEEDB2] rounded-full transition-colors">
-            <User className="w-5 h-5 text-[#084734]" />
-          </button>
-          <button className="p-2 hover:bg-[#CEEDB2] rounded-full transition-colors">
-            <ShoppingCart className="w-5 h-5 text-[#084734]" />
+          <button className="bg-[#084734] text-white px-6 py-2 rounded-full font-poppins hover:bg-[#084734]/90 transition-colors">
+            Shop Now
           </button>
         </div>
       </div>

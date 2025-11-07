@@ -1,11 +1,11 @@
 export default function ProductShowcase() {
   const products = [
-    { name: 'Japanese Maple', price: '$189', level: 'Beginner', image: 'https://images.pexels.com/photos/4751987/pexels-photo-4751987.jpeg?auto=compress&cs=tinysrgb&w=500' },
-    { name: 'Juniper Cascade', price: '$249', level: 'Intermediate', image: 'https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=500' },
-    { name: 'Chinese Elm', price: '$159', level: 'Beginner', image: 'https://images.pexels.com/photos/5632447/pexels-photo-5632447.jpeg?auto=compress&cs=tinysrgb&w=500' },
-    { name: 'Flowering Cherry', price: '$299', level: 'Advanced', image: 'https://images.pexels.com/photos/5015046/pexels-photo-5015046.jpeg?auto=compress&cs=tinysrgb&w=500' },
-    { name: 'Pine Windswept', price: '$349', level: 'Intermediate', image: 'https://images.pexels.com/photos/6210825/pexels-photo-6210825.jpeg?auto=compress&cs=tinysrgb&w=500' },
-    { name: 'Ficus Retusa', price: '$199', level: 'Beginner', image: 'https://images.pexels.com/photos/4750952/pexels-photo-4750952.jpeg?auto=compress&cs=tinysrgb&w=500' },
+    { name: 'Japanese Maple', price: '$189', level: 'Beginner', image: 'https://images.unsplash.com/photo-1641412722397-3be359096577?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735' },
+    { name: 'Juniper Cascade', price: '$249', level: 'Intermediate', image: 'https://images.unsplash.com/photo-1470364693235-a4fe27c60914?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687' },
+    { name: 'Chinese Elm', price: '$159', level: 'Beginner', image: 'https://images.unsplash.com/photo-1632161286719-5afe9b5d954b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=745' },
+    { name: 'Flowering Cherry', price: '$299', level: 'Advanced', image: 'https://images.unsplash.com/photo-1569873175476-10aa45523ab8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=717' },
+    { name: 'Pine Windswept', price: '$349', level: 'Intermediate', image: 'https://images.unsplash.com/photo-1707932700096-db113d55a026?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=783' },
+    { name: 'Ficus Retusa', price: '$199', level: 'Beginner', image: 'https://images.unsplash.com/photo-1702846920386-c01a6bb92537?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=670' },
   ];
 
   return (
