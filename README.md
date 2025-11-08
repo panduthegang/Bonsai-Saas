@@ -1,9 +1,7 @@
+# 🌳ZenBonsai - Your Gateway to the Art of Bonsai
+
 <div align="center">
   <img src="public/Thumbnail.png" alt="ZenBonsai Logo">
-
-  # ZenBonsai
-
-  **Your Gateway to the Art of Bonsai** 🌳
 
   [Features](#-features) • [Installation](#-installation) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
 </div>
